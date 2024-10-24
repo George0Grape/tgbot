@@ -4,7 +4,7 @@ from googletrans import Translator
 from telebot import types
 import random
 import requests
-bot=telebot.TeleBot('7637717392:AAFSqNgj21m4_qGwGOfn8ZEWSoEMNQEX3Ls')
+bot=telebot.TeleBot('insert token here')
 @bot.message_handler(commands=['start'])
 def start(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
